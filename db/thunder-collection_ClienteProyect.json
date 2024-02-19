@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ClienteProyect",
+    "dateExported": "2024-02-19T05:00:56.654Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fec7aaaf-eaf5-4970-bb7a-0fe90d6b7006",
+            "colId": "db71e44c-05b7-4ae8-beb4-dd1461af8762",
+            "containerId": "",
+            "name": "clientesPost",
+            "url": "http://localhost:3000/api/cliente",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-19T04:32:15.827Z",
+            "modified": "2024-02-19T04:47:34.490Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Many Gómez\",\n  \"direccion\": \"9na calle 16-15 zona 11\",\n  \"correo\":\"ms0918@kinal.edu.gt\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e33f4f34-dcdc-48c9-bed9-0c98a0e3d83c",
+            "colId": "db71e44c-05b7-4ae8-beb4-dd1461af8762",
+            "containerId": "",
+            "name": "clientesGet",
+            "url": "http://localhost:3000/api/cliente",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-19T04:46:22.488Z",
+            "modified": "2024-02-19T04:46:40.557Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f1ee20d0-1305-43b0-94b0-bfff25ca2175",
+            "colId": "db71e44c-05b7-4ae8-beb4-dd1461af8762",
+            "containerId": "",
+            "name": "getClienteByid",
+            "url": "http://localhost:3000/api/cliente/65d2dd6698de96935cd32256",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-19T04:49:32.061Z",
+            "modified": "2024-02-19T04:49:55.750Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "69d596dc-be18-4792-b17f-f629416f4808",
+            "colId": "db71e44c-05b7-4ae8-beb4-dd1461af8762",
+            "containerId": "",
+            "name": "clientesPut",
+            "url": "http://localhost:3000/api/cliente/65d2dc4fae3538bfffa504d2",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-02-19T04:53:46.426Z",
+            "modified": "2024-02-19T04:55:47.815Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Ignacio J Leiva\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
