@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "UserProyect",
+    "dateExported": "2024-02-19T04:13:14.001Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c5ba4bec-4b62-4dcc-8ef3-317d2e87793b",
+            "colId": "24fae7d8-5f1a-4cf0-b4d5-92a579fe8a66",
+            "containerId": "",
+            "name": "usuariosPost",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-19T02:36:08.797Z",
+            "modified": "2024-02-19T02:59:07.765Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Ignacio Iboy\",\n  \"correo\":\"iiboy-2022099@kinal.edu.gt\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d1844c5e-8832-4004-99f4-4352f03426b2",
+            "colId": "24fae7d8-5f1a-4cf0-b4d5-92a579fe8a66",
+            "containerId": "",
+            "name": "usuariosGet",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-19T03:42:48.893Z",
+            "modified": "2024-02-19T03:42:57.562Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "176a3296-7d8c-4713-83fc-b70c6df4102e",
+            "colId": "24fae7d8-5f1a-4cf0-b4d5-92a579fe8a66",
+            "containerId": "",
+            "name": "getUsuarioById",
+            "url": "http://localhost:3000/api/usuarios/65d2c209eda2d69434bbedfd",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-19T03:45:19.810Z",
+            "modified": "2024-02-19T03:47:25.117Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5fe13395-774a-4f64-aef9-505a9394d151",
+            "colId": "24fae7d8-5f1a-4cf0-b4d5-92a579fe8a66",
+            "containerId": "",
+            "name": "usuariosPut",
+            "url": "http://localhost:3000/api/usuarios/65d2c209eda2d69434bbedfd",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-02-19T03:59:30.398Z",
+            "modified": "2024-02-19T04:00:25.137Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Ignacio J Leiva\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fe66a357-9117-46cd-aa58-3ddc7e5fbd33",
+            "colId": "24fae7d8-5f1a-4cf0-b4d5-92a579fe8a66",
+            "containerId": "",
+            "name": "usuariosDelete",
+            "url": "http://localhost:3000/api/usuarios/65d2c209eda2d69434bbedfd",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-02-19T04:07:39.402Z",
+            "modified": "2024-02-19T04:07:51.093Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

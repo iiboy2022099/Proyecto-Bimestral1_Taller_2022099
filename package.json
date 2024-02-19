@@ -2,7 +2,7 @@
   "name": "proyecto-final-b1",
   "version": "1.0.0",
   "description": "Bienvenidos a la Estación principal, hoy vamos a realizar un Repositorio de nuestro proyecto Final de Taller",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
